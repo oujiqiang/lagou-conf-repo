@@ -4,8 +4,8 @@ spring:
   # 邮箱配置
   mail:
     host: smtp.qq.com
-    username: 
-    password: 
+    username: 517309804@qq.com
+    password: awznvjqobwkkbjfi
     default-encoding: UTF-8
 dubbo:
   scan:
