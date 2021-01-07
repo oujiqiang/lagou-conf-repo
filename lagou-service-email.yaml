@@ -4,17 +4,14 @@ spring:
   # 邮箱配置
   mail:
     host: smtp.qq.com
-    username: 834147212@qq.com
-    password: kafgczueedsdbehd
+    username: 
+    password: 
     default-encoding: UTF-8
 dubbo:
   scan:
-    # dubbo 服务扫描基准包
     base-packages: com.lagou.service
   protocol:
-    # dubbo 协议
     name: dubbo
-    # dubbo 协议端⼝（ -1 表示⾃增端⼝，从 20880 开始）
     port: 20880
   registry:
     # 挂载到 Spring Cloud 的注册中⼼
